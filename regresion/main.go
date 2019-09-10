@@ -90,7 +90,7 @@ func histogram(dataDF dataframe.DataFrame) {
 func main() {
 	// The first step is profiling the dataset
 
-	advertFile, err := os.Open("/Users/reberoprince/Documents/Golang books/codes/chapter3/regresion/Advertising.csv")
+	advertFile, err := os.Open("Advertising.csv")
 
 	if err != nil {
 		log.Fatal(err)
